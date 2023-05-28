@@ -1,0 +1,31 @@
+{
+  "id": "player-facing-rolls",
+  "title": "Player Facing Rolls",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Grey Nax Gaming",
+      "discord": "Hagmo#1391",
+      "email": "gm@greynax.com",
+      "url": "https://greynax.com",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Pack 1",
+      "path": "packs/pack-1",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
